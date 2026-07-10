@@ -130,6 +130,3 @@ write_csv(available_books, "Vladut_Florian_Rezultate_Task3_AvailableBooks.csv")
 write_csv(users_east_albert, "Vladut_Florian_Rezultate_Task3_UsersNoRentals.csv")
 write_csv(top_books, "Vladut_Florian_Rezultate_Task3_TopBooks.csv")
 write_csv(top_users, "Vladut_Florian_Rezultate_Task3_TopUsers.csv")
-
-###############################################################
-
