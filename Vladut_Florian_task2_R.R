@@ -26,15 +26,15 @@ shop_data$venituri_totale <- list(
   B = sum(venit_B)
 )
 
-#ziua cu venitul maxim pentru fiecare produs
+
 zi_max_A <- which.max(venit_A)
 zi_max_B <- which.max(venit_B)
 
-#vanzare medie zilnica
+
 cant_medie_A <- mean(cantitati_A)
 cant_medie_B <- mean(cantitati_B)
 
-#Data frame pentru fiecare produs
+
 df_A <- data.frame(
   produs = "Produs A",
   zi = 1:5,
